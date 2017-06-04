@@ -2,11 +2,11 @@ python graylog api client code
 
 
 *  updateUser
-  *  path : /users/{username}
-  *  notes : 
-  *  method : PUT
-  *  parameters : [{u'paramType': u'path', u'required': True, u'type': u'String', u'name': u'username', u'description': u'The name of the user to modify.'}, {u'paramType': u'body', u'required': True, u'type': u'ChangeUserRequest', u'name': u'JSON body', u'description': u'Updated user information.'}]
-  *  summary : Modify user details.
+  >*  path : /users/{username}
+  >*  notes : 
+  >*  method : PUT
+  >*  parameters : [{u'paramType': u'path', u'required': True, u'type': u'String', u'name': u'username', u'description': u'The name of the user to modify.'}, {u'paramType': u'body', u'required': True, u'type': u'ChangeUserRequest', u'name': u'JSON body', u'description': u'Updated user information.'}]
+  >*  summary : Modify user details.
 
 *  removeStreamRule
   *  path : /streams/{streamid}/rules/{streamRuleId}
