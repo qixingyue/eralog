@@ -17,5 +17,5 @@ else :
 		print "* " ,key
 		method = methods[key]
 		for key in method.keys():
-			print "  >* " , key , ":" , method[key]
+			print "\t * " , key , ":" , method[key]
 
