@@ -2,6 +2,7 @@ python graylog api client code
 
 =====
 
+
 *  updateUser
 	 *  path : /users/{username}
 	 *  notes : 
